@@ -14,7 +14,7 @@ export const Contact = () => {
                               <p>CONTACT</p>
                               <h2 className="py-2">Send your query</h2>
                               <p className="para-light">
-                              We value your input and are here to assist with any questions or requests you may have. Whether it&#39;s  a query about our services.
+                              We value your input and are here to assist with any questions or requests you may have.
                               </p>
                           </div>
                           <div>
