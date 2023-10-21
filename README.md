@@ -1,3 +1,10 @@
+<p align="center">
+
+<img src="https://raw.githubusercontent.com/demjhonsilver/energize-coffee-house/main/public/screenshot.png" alt="Logo" width="800" height="450"/>
+
+</p>
+
+
 # React + Vite
 
 This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
