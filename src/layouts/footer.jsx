@@ -7,7 +7,12 @@ export const Footer = () => {
               <div className="row" data-aos="fade-right">
                   <div className="col-lg-3 py-4 py-md-5">
                       <div className="d-flex align-items-center">
-                          <h4 className="">Designed by: <br></br> Demjhon Silver</h4>
+                      <h4 className="" style={{ fontStyle: 'italic', fontSize:'19px'}}>
+                        Designed by: <br />
+                        <a style={{color: 'orange', fontStyle: 'normal', fontSize:'15px'}} href="https://demjhonsilver.com/" target="_blank" rel="noreferrer">
+                            Demjhon Silver
+                        </a>
+                        </h4>
                       </div>
                       <p className="py-3 para-light">This site was built with React and Vite</p>
                       <div className="d-flex">

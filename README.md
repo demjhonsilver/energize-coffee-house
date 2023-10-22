@@ -1,6 +1,6 @@
 <p align="center">
 
-<img src="https://raw.githubusercontent.com/demjhonsilver/energize-coffee-house/main/public/screenshot.png" alt="Logo" width="800" height="430"/>
+<img src="https://raw.githubusercontent.com/demjhonsilver/energize-coffee-house/main/public/screenshot.png" alt="Logo" width="800" height="410"/>
 
 [Preview](https://energize-coffee-house.vercel.app)
 
