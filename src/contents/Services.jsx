@@ -4,12 +4,10 @@ export const Services = () => {
       <div>
      <section className="services d-flex align-items-center py-5" id="services">
           <div className="container text-light">
-              <div className="text-center pb-4" >
+              <div className="text-center pb-4">
                 
                   <h2 className="py-2">Explore Coffee Flavors</h2>
-                  <p className="para-light">
-                  Coffee with a well-balanced flavor, suitable for those who enjoy a traditional coffee taste
-                  </p>
+                  
               </div>
               <div className="row gy-4 py-2" data-aos="zoom-in">
                   <div className="col-lg-4">

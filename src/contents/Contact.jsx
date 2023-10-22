@@ -6,7 +6,7 @@ export const Contact = () => {
     
    
       <section className="contact d-flex align-items-center py-5" id="contact">
-          <div className="container-fluid text-light">
+          <div className="container-fluid text-light" >
               <div className="row">
                   <div className="col-lg-6 d-flex justify-content-center justify-content-lg-end align-items-center px-lg-5" data-aos="fade-right">
                       <div style={{width: '90%'}}>
