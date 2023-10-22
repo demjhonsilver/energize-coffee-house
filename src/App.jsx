@@ -3,11 +3,13 @@ import Layout from './layouts/Layout';
 import { AppRouter } from './navigation/router'; 
 import './App.css';
 import 'bootstrap/dist/css/bootstrap.css';
-import 'bootstrap/dist/js/bootstrap.bundle';
 import './assets/css/fontawesome-all.min.css';
 
 import './assets/css/swiper.css';
 import './assets/css/style.css';
+
+import 'bootstrap/dist/css/bootstrap.css'; 
+
 
 
 

@@ -5,7 +5,7 @@ export const Services = () => {
      <section className="services d-flex align-items-center py-5" id="services">
           <div className="container text-light">
               <div className="text-center pb-4" >
-                  <p>OUR SERVICES</p> 
+                
                   <h2 className="py-2">Explore Coffee Flavors</h2>
                   <p className="para-light">
                   Coffee with a well-balanced flavor, suitable for those who enjoy a traditional coffee taste

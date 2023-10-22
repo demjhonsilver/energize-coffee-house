@@ -5,7 +5,7 @@
 /**************************/
 :root {
 	--primary: #1c262f;
-	--primary-light: #212d37;
+	--primary-light: rgb(92, 54, 4);
 	--secondary: #f77810;
 	--tertiary: #ffaf47;
 	--gradient: linear-gradient(to right, #f77810, #ffaf47);
@@ -49,19 +49,20 @@ li {
 .home,
 .about,
 .services,
-.plans,
-.work,
 .contact {
 	height: 110vh;
 	position: relative;
 }
 
-.services,
-.work,
-.contact,
-.testimonial,
+.services{
+	background-color: var(--primary);
+}
+.contact{
+  	background-color: rgb(187, 69, 27);
+}
+
 .footer {
-  	background-color: var(--primary);
+	background-color: rgb(10, 1, 1);
 }
 
 .about,
@@ -98,6 +99,10 @@ li {
 	-webkit-text-fill-color: transparent;
 }
 
+
+.navbar {
+	margin-top: -20px;
+}
 .navbar-nav a:hover,
 .footer a:hover,
 .footer .fab:hover {
@@ -106,6 +111,7 @@ li {
 	background-clip: text;
 	-webkit-background-clip: text;
 	-webkit-text-fill-color: transparent;
+
 }
 
 
@@ -236,8 +242,33 @@ li {
 	padding: 0;
 	border: none;
 	font-size: 1.25rem;
+	color:#eee
 }
 
+/* Add this CSS in your stylesheet or within your React component */
+
+.navbar-toggler-icon::before {
+
+	content: "";
+	display: block;
+	width: 25px; /* Adjust the width of each line as needed */
+	height: 3px; /* Adjust the height of each line as needed */
+	background-color: #fff; /* Color of the lines */
+	margin: 3px 0; /* Adjust the spacing between lines as needed */
+	border-style: none;
+  }
+  
+  .navbar-toggler-icon::after {
+	
+	content: "";
+	display: block;
+	width: 25px; /* Adjust the width of each line as needed */
+	height: 3px; /* Adjust the height of each line as needed */
+	background-color: #fff; /* Color of the lines */
+	margin: 3px 0;
+	border-style: none;
+  }
+  
 
 /****************/
 /*     Home     */
@@ -596,6 +627,9 @@ li {
 	.plans {
 		height: 100%;
 	}
+	.navbar {
+		margin-top: 0px;
+	}
 }
 
 @media (min-width: 992px) {
@@ -701,4 +735,5 @@ li {
 		width: 22px;
 		background-size: 22px 34px;
 	}
+
 }
