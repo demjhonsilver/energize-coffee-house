@@ -1,12 +1,18 @@
-
+import { useEffect } from 'react';
+import { motionRack } from 'motionrack'; 
 
 export const About = () => {
+
+    useEffect(() => {
+        motionRack();
+    });
+
     return (
       <div>
      <section className="about d-flex align-items-center text-light py-5" id="about">
           <div className="container" >
               <div className="row d-flex align-items-center">
-                  <div className="col-lg-7" data-aos="fade-right">
+                  <div className="col-lg-7"  data-motionrack="motionRight">
                       <p>ABOUT US</p>
                       <h1>Where a passion for<br></br>coffee community</h1>
                       <p className="py-2 para-light">
@@ -19,12 +25,21 @@ export const About = () => {
 
                       </p>
   
-                      <div className="my-3">
+                      <div className="my-3"  data-motionrack="flipDown">
                           <a className="btn" href="#your-link">Learn More</a>
                       </div>
                   </div>
-                  <div className="col-lg-5 text-center py-4 py-sm-0" data-aos="fade-down">
-                      <img className="img-fluid" src="/assets/images/about.png" alt="about" />
+                  
+                  <div className="col-lg-5 text-center py-4 py-sm-0">
+                  
+                 
+                    <div className="monoPad">
+                         <div className="monoBox" data-motionrack="minSpinRight">
+                            <img className="img-fluid" src="/assets/images/about.png" alt="about" />
+                         </div>
+                    </div>
+                 
+                     
                   </div>
      
               </div> 

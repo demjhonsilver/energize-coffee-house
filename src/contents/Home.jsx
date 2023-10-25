@@ -1,3 +1,5 @@
+import { useEffect } from 'react';
+import { motionRack } from 'motionrack'; 
 import { Info } from './Info';
 import { About } from './About';
 import  { Services } from './Services';
@@ -5,13 +7,17 @@ import  { Contact } from './Contact';
 
 export const Home = () => {
 
-
+    useEffect(() => {
+        motionRack();
+      });
 
   return (
     <div>
    
     <section className="home py-5 d-flex align-items-center" id="home">
-        <div className="container text-light py-5"  data-aos="fade-right"> 
+        <div className="container text-light py-5" data-motionrack="motionLeft">
+           
+
             <h1 className="headline">Best <span className="home_text">Coffee</span><br></br>Relaxing For You</h1>
             <p className="para para-light py-3">
                 

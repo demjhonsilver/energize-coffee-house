@@ -6,7 +6,7 @@ export const Contact = () => {
     
    
       <section className="contact d-flex align-items-center py-5" id="contact">
-          <div className="container-fluid text-light" >
+          <div className="container-fluid text-light" data-motionrack="bounceDown">
               <div className="row">
                   <div className="col-lg-6 d-flex justify-content-center justify-content-lg-end align-items-center px-lg-5" data-aos="fade-right">
                       <div style={{width: '90%'}}>
@@ -42,8 +42,8 @@ export const Contact = () => {
                           </div>
                       </div>
                   </div> 
-                  <div className="col-lg-6 d-flex align-items-center" data-aos="fade-down">
-                      <img className="img-fluid d-none d-lg-block" src="./assets/images/contact.jpg" alt="contact"/>        
+                  <div className="col-lg-6 d-flex align-items-center">
+                      <img className="img-fluid d-none d-lg-block" data-motionrack="motionUp" src="./assets/images/contact.jpg" alt="contact"/>        
                   </div> 
               </div>
           </div> 

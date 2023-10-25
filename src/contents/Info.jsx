@@ -6,7 +6,7 @@ export const Info = () => {
       <section className="information">
           <div className="container-fluid">  
               <div className="row text-light">
-                  <div className="col-lg-4 text-center p-5" >
+                  <div className="col-lg-4 text-center p-5" data-motionrack="motionRight">
                       <i className="fas fa-tachometer-alt fa-3x p-2"></i>
                       <h4 className="py-3">Download 1 GBPS</h4>
                       <p className="para-light">
@@ -14,7 +14,7 @@ export const Info = () => {
 
                       </p>
                   </div>
-                  <div className="col-lg-4 text-center p-5"  >
+                  <div className="col-lg-4 text-center p-5" data-motionrack="bounceUp">
                       <i className="fas fa-clock fa-3x p-2"></i>
                       <h4 className="py-3">99% Internet Uptime</h4>
                       <p className="para-light">
@@ -22,7 +22,7 @@ export const Info = () => {
 
                       </p>
                   </div>
-                  <div className="col-lg-4 text-center p-5 text-dark"  > 
+                  <div className="col-lg-4 text-center p-5 text-dark"  data-motionrack="motionLeft"> 
                       <i className="fas fa-mug-hot fa-3x p-2"></i>
                       
                       <h4 className="py-3">24/7 Support </h4>
