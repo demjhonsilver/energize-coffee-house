@@ -9,7 +9,7 @@ export const Services = () => {
                   <h2 className="py-2">Explore Coffee Flavors</h2>
                   
               </div>
-              <div className="row gy-4 py-2" data-motionrack="zoomIn">
+              <div className="row gy-4 py-2" data-motionrack="expand">
                   <div className="col-lg-4">
                       <div className="card bg-transparent">
              

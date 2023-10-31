@@ -14,7 +14,7 @@ export const Info = () => {
 
                       </p>
                   </div>
-                  <div className="col-lg-4 text-center p-5" data-motionrack="bounceUp">
+                  <div className="col-lg-4 text-center p-5" data-motionrack="expand">
                       <i className="fas fa-clock fa-3x p-2"></i>
                       <h4 className="py-3">99% Internet Uptime</h4>
                       <p className="para-light">
